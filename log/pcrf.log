@@ -1,0 +1,76 @@
+Open5GS daemon v2.6.4-22-g93bcd7f
+
+06/21 12:58:29.597: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:126)
+06/21 12:58:29.597: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:129)
+06/21 12:58:29.601: [dbi] INFO: MongoDB URI: 'mongodb://10.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+06/21 12:58:29.605: [diam] ERROR: pid:Main in fdderror@fdd.y:69: /open5gs/install/etc/freeDiameter/pcrf.conf:264.73 : Name or service not known
+ ((null):0)
+06/21 12:58:29.605: [diam] ERROR: pid:Main in fdderror@fdd.y:69: /open5gs/install/etc/freeDiameter/pcrf.conf:264.73 : An error occurred while parsing the configuration file
+ ((null):0)
+06/21 12:58:29.605: [diam] ERROR: pid:Main in fd_conf_parse@config.c:281: ERROR: in '((fddparse(fd_g_config)))' :	Invalid argument
+ ((null):0)
+06/21 12:58:29.605: [diam] ERROR: pid:Main in fd_core_parseconf_int@core.c:245: ERROR: in '((fd_conf_parse()))' :	Invalid argument
+ ((null):0)
+06/21 12:58:29.605: [diam] ERROR: pid:Main in ogs_diam_init@init.c:49: ERROR: in '(fd_core_parseconf(conffile))' :	Invalid argument
+ ((null):0)
+06/21 12:58:29.706: [pcrf] FATAL: pcrf_fd_init: Assertion `rv == 0' failed. (../src/pcrf/pcrf-fd-path.c:29)
+06/21 12:58:29.706: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+./open5gs-pcrfd(+0x6f1a) [0x5623c8b63f1a]
+./open5gs-pcrfd(+0x57c2) [0x5623c8b627c2]
+./open5gs-pcrfd(+0x4d5e) [0x5623c8b61d5e]
+./open5gs-pcrfd(+0x5643) [0x5623c8b62643]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fc4a1c5b083]
+./open5gs-pcrfd(+0x4c8e) [0x5623c8b61c8e]
+Open5GS daemon v2.6.4-22-g93bcd7f
+
+06/21 13:06:18.864: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:126)
+06/21 13:06:18.864: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:129)
+06/21 13:06:18.866: [dbi] INFO: MongoDB URI: 'mongodb://10.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+06/21 13:06:18.870: [diam] ERROR: pid:Main in fdderror@fdd.y:69: /open5gs/install/etc/freeDiameter/pcrf.conf:264.73 : Name or service not known
+ ((null):0)
+06/21 13:06:18.870: [diam] ERROR: pid:Main in fdderror@fdd.y:69: /open5gs/install/etc/freeDiameter/pcrf.conf:264.73 : An error occurred while parsing the configuration file
+ ((null):0)
+06/21 13:06:18.870: [diam] ERROR: pid:Main in fd_conf_parse@config.c:281: ERROR: in '((fddparse(fd_g_config)))' :	Invalid argument
+ ((null):0)
+06/21 13:06:18.870: [diam] ERROR: pid:Main in fd_core_parseconf_int@core.c:245: ERROR: in '((fd_conf_parse()))' :	Invalid argument
+ ((null):0)
+06/21 13:06:18.870: [diam] ERROR: pid:Main in ogs_diam_init@init.c:49: ERROR: in '(fd_core_parseconf(conffile))' :	Invalid argument
+ ((null):0)
+06/21 13:06:18.971: [pcrf] FATAL: pcrf_fd_init: Assertion `rv == 0' failed. (../src/pcrf/pcrf-fd-path.c:29)
+06/21 13:06:18.971: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+./open5gs-pcrfd(+0x6f1a) [0x55cb69a4df1a]
+./open5gs-pcrfd(+0x57c2) [0x55cb69a4c7c2]
+./open5gs-pcrfd(+0x4d5e) [0x55cb69a4bd5e]
+./open5gs-pcrfd(+0x5643) [0x55cb69a4c643]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f4524eef083]
+./open5gs-pcrfd(+0x4c8e) [0x55cb69a4bc8e]
+Open5GS daemon v2.6.4-22-g93bcd7f
+
+06/21 13:09:31.504: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:126)
+06/21 13:09:31.504: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:129)
+06/21 13:09:31.507: [dbi] INFO: MongoDB URI: 'mongodb://10.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+06/21 13:09:31.510: [diam] ERROR: pid:Main in fdderror@fdd.y:69: /open5gs/install/etc/freeDiameter/pcrf.conf:264.73 : Name or service not known
+ ((null):0)
+06/21 13:09:31.510: [diam] ERROR: pid:Main in fdderror@fdd.y:69: /open5gs/install/etc/freeDiameter/pcrf.conf:264.73 : An error occurred while parsing the configuration file
+ ((null):0)
+06/21 13:09:31.510: [diam] ERROR: pid:Main in fd_conf_parse@config.c:281: ERROR: in '((fddparse(fd_g_config)))' :	Invalid argument
+ ((null):0)
+06/21 13:09:31.510: [diam] ERROR: pid:Main in fd_core_parseconf_int@core.c:245: ERROR: in '((fd_conf_parse()))' :	Invalid argument
+ ((null):0)
+06/21 13:09:31.510: [diam] ERROR: pid:Main in ogs_diam_init@init.c:49: ERROR: in '(fd_core_parseconf(conffile))' :	Invalid argument
+ ((null):0)
+06/21 13:09:31.611: [pcrf] FATAL: pcrf_fd_init: Assertion `rv == 0' failed. (../src/pcrf/pcrf-fd-path.c:29)
+06/21 13:09:31.611: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+./open5gs-pcrfd(+0x6f1a) [0x55a9b477cf1a]
+./open5gs-pcrfd(+0x57c2) [0x55a9b477b7c2]
+./open5gs-pcrfd(+0x4d5e) [0x55a9b477ad5e]
+./open5gs-pcrfd(+0x5643) [0x55a9b477b643]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f97cc289083]
+./open5gs-pcrfd(+0x4c8e) [0x55a9b477ac8e]
+Open5GS daemon v2.6.4-22-g93bcd7f
+
+06/21 13:12:01.553: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcrf.yaml' (../lib/app/ogs-init.c:126)
+06/21 13:12:01.553: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcrf.log' (../lib/app/ogs-init.c:129)
+06/21 13:12:01.556: [dbi] INFO: MongoDB URI: 'mongodb://10.22.0.2/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+06/21 13:12:01.615: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+06/21 13:12:01.621: [diam] INFO: CONNECTED TO 'smf.epc.mnc004.mcc520.3gppnetwork.org' (SCTP,soc#16): (../lib/diameter/common/logger.c:108)

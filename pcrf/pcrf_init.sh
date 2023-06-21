@@ -47,5 +47,7 @@ sed -i 's|EPC_DOMAIN|'$EPC_DOMAIN'|g' install/etc/freeDiameter/make_certs.sh
 # Generate TLS certificates
 ./install/etc/freeDiameter/make_certs.sh install/etc/freeDiameter
 
+cat install/etc/freeDiameter/pcrf.conf
+
 # Sync docker time
 #ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone

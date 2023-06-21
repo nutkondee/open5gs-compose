@@ -1,0 +1,22 @@
+Open5GS daemon v2.6.4-22-g93bcd7f
+
+06/21 12:58:18.891: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/ausf.yaml' (../lib/app/ogs-init.c:126)
+06/21 12:58:18.891: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/ausf.log' (../lib/app/ogs-init.c:129)
+06/21 12:58:18.896: [sbi] INFO: NF Service [nausf-auth] (../lib/sbi/context.c:1438)
+06/21 12:58:18.896: [sbi] INFO: nghttp2_server() [http://10.22.0.11]:7777 (../lib/sbi/nghttp2-server.c:395)
+06/21 12:58:18.896: [app] INFO: AUSF initialize...done (../src/ausf/app.c:31)
+06/21 12:58:18.899: [sbi] INFO: [9f0022f0-0ff8-41ee-8503-6d2568f70e67] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:214)
+06/21 12:58:18.901: [sbi] INFO: [9f00c868-0ff8-41ee-9ae2-4597cb43d23a] Subscription created until 2023-06-22T12:58:18.900007+07:00 [duration:86400,validity:86399.998956,patch:43199.999478] (../lib/sbi/nnrf-handler.c:509)
+06/21 12:58:19.695: [sbi] INFO: [9f791656-0ff8-41ee-a44e-91444355cee3] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:725)
+06/21 12:58:19.695: [sbi] INFO: [9f791656-0ff8-41ee-a44e-91444355cee3] (NRF-notify) NF Profile updated (../lib/sbi/nnrf-handler.c:735)
+Open5GS daemon v2.6.4-22-g93bcd7f
+
+06/21 13:11:52.054: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/ausf.yaml' (../lib/app/ogs-init.c:126)
+06/21 13:11:52.054: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/ausf.log' (../lib/app/ogs-init.c:129)
+06/21 13:11:52.059: [sbi] INFO: NF Service [nausf-auth] (../lib/sbi/context.c:1438)
+06/21 13:11:52.060: [sbi] INFO: nghttp2_server() [http://10.22.0.11]:7777 (../lib/sbi/nghttp2-server.c:395)
+06/21 13:11:52.060: [app] INFO: AUSF initialize...done (../src/ausf/app.c:31)
+06/21 13:11:52.063: [sbi] INFO: [83af1662-0ffa-41ee-82fd-494ac9315c24] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:214)
+06/21 13:11:52.068: [sbi] INFO: [83b02e4e-0ffa-41ee-ae07-bd705b1c2915] Subscription created until 2023-06-22T13:11:52.066713+07:00 [duration:86400,validity:86399.998429,patch:43199.999214] (../lib/sbi/nnrf-handler.c:509)
+06/21 13:11:52.130: [sbi] INFO: [83b9652c-0ffa-41ee-a4a5-93f274c3b91b] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:725)
+06/21 13:11:52.131: [sbi] INFO: [83b9652c-0ffa-41ee-a4a5-93f274c3b91b] (NRF-notify) NF Profile updated (../lib/sbi/nnrf-handler.c:735)

@@ -7,7 +7,7 @@ services:
     env_file:
       - .env
     volumes:
-      - ./mongo4:/mnt/mongo
+      - ./mongov4:/mnt/mongo
       - mongodbdata:/var/lib/mongodb
       - /etc/timezone:/etc/timezone:ro
       - /etc/localtime:/etc/localtime:ro

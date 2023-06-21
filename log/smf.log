@@ -1,0 +1,34 @@
+Open5GS daemon v2.6.4-22-g93bcd7f
+
+06/21 12:58:20.795: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/smf.yaml' (../lib/app/ogs-init.c:126)
+06/21 12:58:20.795: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/smf.log' (../lib/app/ogs-init.c:129)
+06/21 12:58:20.965: [sock] ERROR: looks_like_ip(, (null)) failed (../lib/core/ogs-sockaddr.c:602)
+06/21 12:58:20.965: [smf] FATAL: smf_context_parse_config: Assertion `rv == OGS_OK' failed. (../src/smf/context.c:551)
+06/21 12:58:20.966: [core] FATAL: backtrace() returned 7 addresses (../lib/core/ogs-abort.c:37)
+./open5gs-smfd(+0x1301a) [0x5576897e701a]
+./open5gs-smfd(+0xedd3) [0x5576897e2dd3]
+./open5gs-smfd(+0xe25e) [0x5576897e225e]
+./open5gs-smfd(+0xeb43) [0x5576897e2b43]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f5973b6b083]
+./open5gs-smfd(+0xe18e) [0x5576897e218e]
+Open5GS daemon v2.6.4-22-g93bcd7f
+
+06/21 13:11:53.368: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/smf.yaml' (../lib/app/ogs-init.c:126)
+06/21 13:11:53.368: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/smf.log' (../lib/app/ogs-init.c:129)
+06/21 13:11:53.515: [metrics] INFO: metrics_server() [http://10.22.0.7]:9091 (../lib/metrics/prometheus/context.c:299)
+06/21 13:11:53.590: [gtp] INFO: gtp_server() [10.22.0.7]:2123 (../lib/gtp/path.c:30)
+06/21 13:11:53.590: [gtp] INFO: gtp_server() [10.22.0.7]:2152 (../lib/gtp/path.c:30)
+06/21 13:11:53.591: [pfcp] INFO: pfcp_server() [10.22.0.7]:8805 (../lib/pfcp/path.c:30)
+06/21 13:11:53.591: [pfcp] INFO: ogs_pfcp_connect() [10.22.0.8]:8805 (../lib/pfcp/path.c:61)
+06/21 13:11:53.591: [sbi] INFO: NF Service [nsmf-pdusession] (../lib/sbi/context.c:1438)
+06/21 13:11:53.592: [sbi] INFO: nghttp2_server() [http://10.22.0.7]:7777 (../lib/sbi/nghttp2-server.c:395)
+06/21 13:11:53.592: [app] INFO: SMF initialize...done (../src/smf/app.c:31)
+06/21 13:11:53.595: [sbi] INFO: [848ac40a-0ffa-41ee-bc10-b7fe83588282] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:214)
+06/21 13:11:53.597: [sbi] INFO: [84998e5e-0ffa-41ee-ae07-bd705b1c2915] Subscription created until 2023-06-22T13:11:53.596169+07:00 [duration:86400,validity:86399.999028,patch:43199.999514] (../lib/sbi/nnrf-handler.c:509)
+06/21 13:11:53.597: [sbi] INFO: [8499a63c-0ffa-41ee-ae07-bd705b1c2915] Subscription created until 2023-06-22T13:11:53.596688+07:00 [duration:86400,validity:86399.998976,patch:43199.999488] (../lib/sbi/nnrf-handler.c:509)
+06/21 13:11:53.597: [sbi] INFO: [8499b1b8-0ffa-41ee-ae07-bd705b1c2915] Subscription created until 2023-06-22T13:11:53.596980+07:00 [duration:86400,validity:86399.999067,patch:43199.999533] (../lib/sbi/nnrf-handler.c:509)
+06/21 13:11:53.846: [smf] INFO: PFCP associated [10.22.0.8]:8805 (../src/smf/pfcp-sm.c:186)
+06/21 13:11:56.092: [smf] WARNING: PFCP[RSP] has already been associated [10.22.0.8]:8805 (../src/smf/pfcp-sm.c:289)
+06/21 13:12:01.618: [diam] INFO: CONNECTED TO 'pcrf.epc.mnc004.mcc520.3gppnetwork.org' (SCTP,soc#18): (../lib/diameter/common/logger.c:108)
+06/21 13:12:02.151: [sbi] INFO: [89b22888-0ffa-41ee-8bb8-75e8bd7abf77] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:725)
+06/21 13:12:02.152: [sbi] INFO: [89b22888-0ffa-41ee-8bb8-75e8bd7abf77] (NRF-notify) NF Profile updated (../lib/sbi/nnrf-handler.c:735)
