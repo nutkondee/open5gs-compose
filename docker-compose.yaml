@@ -1,22 +1,18 @@
 version: '3'
+networks:
+  default:
+    ipam:
+      config:
+        - subnet: ${TEST_NETWORK}
+volumes:
+  mongodbdata: {}
+  dbdata: {}
+
 services:
   mongo:
-    build: ./mongov4
-    image: core5g_mongo:v1
-    container_name: mongo
-    env_file:
-      - .env
-    volumes:
-      - ./mongov4:/mnt/mongo
-      - mongodbdata:/var/lib/mongodb
-      - /etc/timezone:/etc/timezone:ro
-      - /etc/localtime:/etc/localtime:ro
-    expose:
-      - "27017/udp"
-      - "27017/tcp"
-    networks:
-      default:
-        ipv4_address: ${MONGO_IP}
+    extends:
+      file: docker-compose-mongo.yaml
+      service: mongo
   webui:
     image: core5gwebui:v1
     container_name: webui
@@ -466,11 +462,3 @@ services:
       default:
         ipv4_address: ${METRICS_IP}
         
-networks:
-  default:
-    ipam:
-      config:
-        - subnet: ${TEST_NETWORK}
-volumes:
-  mongodbdata: {}
-  dbdata: {}

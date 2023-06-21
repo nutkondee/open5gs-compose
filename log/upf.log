@@ -157,3 +157,25 @@ Open5GS daemon v2.6.4-22-g93bcd7f
 06/21 13:11:53.849: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
 06/21 13:11:53.849: [upf] INFO: PFCP associated [10.22.0.7]:8805 (../src/upf/pfcp-sm.c:184)
 06/21 13:11:56.092: [upf] WARNING: PFCP[REQ] has already been associated [10.22.0.7]:8805 (../src/upf/pfcp-sm.c:270)
+Open5GS daemon v2.6.4-22-g93bcd7f
+
+06/21 22:15:53.280: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:126)
+06/21 22:15:53.280: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:129)
+06/21 22:15:53.395: [metrics] INFO: metrics_server() [http://10.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+06/21 22:15:53.395: [pfcp] INFO: pfcp_server() [10.22.0.8]:8805 (../lib/pfcp/path.c:30)
+06/21 22:15:53.395: [pfcp] INFO: ogs_pfcp_connect() [10.22.0.7]:8805 (../lib/pfcp/path.c:61)
+06/21 22:15:53.395: [gtp] INFO: gtp_server() [10.22.0.8]:2152 (../lib/gtp/path.c:30)
+06/21 22:15:53.417: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+06/21 22:15:53.418: [upf] INFO: PFCP associated [10.22.0.7]:8805 (../src/upf/pfcp-sm.c:184)
+06/21 22:15:55.748: [upf] WARNING: PFCP[REQ] has already been associated [10.22.0.7]:8805 (../src/upf/pfcp-sm.c:270)
+Open5GS daemon v2.6.4-22-g93bcd7f
+
+06/21 23:14:29.513: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:126)
+06/21 23:14:29.513: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf.log' (../lib/app/ogs-init.c:129)
+06/21 23:14:29.646: [metrics] INFO: metrics_server() [http://10.22.0.8]:9091 (../lib/metrics/prometheus/context.c:299)
+06/21 23:14:29.646: [pfcp] INFO: pfcp_server() [10.22.0.8]:8805 (../lib/pfcp/path.c:30)
+06/21 23:14:29.646: [pfcp] INFO: ogs_pfcp_connect() [10.22.0.7]:8805 (../lib/pfcp/path.c:61)
+06/21 23:14:29.647: [gtp] INFO: gtp_server() [10.22.0.8]:2152 (../lib/gtp/path.c:30)
+06/21 23:14:29.657: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+06/21 23:14:29.657: [upf] INFO: PFCP associated [10.22.0.7]:8805 (../src/upf/pfcp-sm.c:184)
+06/21 23:14:31.918: [upf] WARNING: PFCP[REQ] has already been associated [10.22.0.7]:8805 (../src/upf/pfcp-sm.c:270)

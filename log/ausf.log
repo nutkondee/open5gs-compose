@@ -20,3 +20,21 @@ Open5GS daemon v2.6.4-22-g93bcd7f
 06/21 13:11:52.068: [sbi] INFO: [83b02e4e-0ffa-41ee-ae07-bd705b1c2915] Subscription created until 2023-06-22T13:11:52.066713+07:00 [duration:86400,validity:86399.998429,patch:43199.999214] (../lib/sbi/nnrf-handler.c:509)
 06/21 13:11:52.130: [sbi] INFO: [83b9652c-0ffa-41ee-a4a5-93f274c3b91b] (NRF-notify) NF registered (../lib/sbi/nnrf-handler.c:725)
 06/21 13:11:52.131: [sbi] INFO: [83b9652c-0ffa-41ee-a4a5-93f274c3b91b] (NRF-notify) NF Profile updated (../lib/sbi/nnrf-handler.c:735)
+Open5GS daemon v2.6.4-22-g93bcd7f
+
+06/21 22:15:51.021: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/ausf.yaml' (../lib/app/ogs-init.c:126)
+06/21 22:15:51.021: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/ausf.log' (../lib/app/ogs-init.c:129)
+06/21 22:15:51.025: [sbi] INFO: NF Service [nausf-auth] (../lib/sbi/context.c:1438)
+06/21 22:15:51.025: [sbi] INFO: nghttp2_server() [http://10.22.0.11]:7777 (../lib/sbi/nghttp2-server.c:395)
+06/21 22:15:51.026: [app] INFO: AUSF initialize...done (../src/ausf/app.c:31)
+06/21 22:15:51.489: [sbi] INFO: [820603f6-1046-41ee-a63b-830ca0539a02] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:214)
+06/21 22:15:51.495: [sbi] INFO: [824d1552-1046-41ee-b8c4-711092107d2e] Subscription created until 2023-06-22T22:15:51.490971+07:00 [duration:86400,validity:86399.995442,patch:43199.997721] (../lib/sbi/nnrf-handler.c:509)
+Open5GS daemon v2.6.4-22-g93bcd7f
+
+06/21 23:14:28.129: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/ausf.yaml' (../lib/app/ogs-init.c:126)
+06/21 23:14:28.129: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/ausf.log' (../lib/app/ogs-init.c:129)
+06/21 23:14:28.135: [sbi] INFO: NF Service [nausf-auth] (../lib/sbi/context.c:1438)
+06/21 23:14:28.135: [sbi] INFO: nghttp2_server() [http://10.22.0.11]:7777 (../lib/sbi/nghttp2-server.c:395)
+06/21 23:14:28.136: [app] INFO: AUSF initialize...done (../src/ausf/app.c:31)
+06/21 23:14:28.138: [sbi] INFO: [b2625a2e-104e-41ee-b0b5-11f2af86d4b1] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:214)
+06/21 23:14:28.142: [sbi] INFO: [b2630d98-104e-41ee-a8ad-afe6b2424a5c] Subscription created until 2023-06-22T23:14:28.139413+07:00 [duration:86400,validity:86399.997410,patch:43199.998705] (../lib/sbi/nnrf-handler.c:509)
