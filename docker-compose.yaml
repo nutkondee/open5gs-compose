@@ -452,12 +452,18 @@ services:
     networks:
       default:
         ipv4_address: ${METRICS_IP}
-        
+
 networks:
   default:
-    ipam:
-      config:
-        - subnet: ${TEST_NETWORK}
+    name: extl2net
+    external: true
+       
+#networks:
+#  default:
+#    ipam:
+#      config:
+#        - subnet: ${TEST_NETWORK}
+
 volumes:
   mongodbdata: {}
   dbdata: {}
